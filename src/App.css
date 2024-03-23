@@ -1,0 +1,46 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.RandomCat {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.cat-details {
+  background: #eeeeee;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.cat-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.discover-btn {
+  background-color: #ff4500;
+  color: white;
+  border: none;
+}
